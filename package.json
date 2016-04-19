@@ -1,0 +1,27 @@
+{
+  "name": "albany-ticket-finder",
+  "version": "1.0.0",
+  "description": "Quickly and easily find outstanding tickets in the City of Albany, NY",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mheadd/albany-ticket-finder.git"
+  },
+  "author": "Mark Headd <mheadd@accela.com> (http://civic.io/)",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "bugs": {
+    "url": "https://github.com/mheadd/albany-ticket-finder/issues"
+  },
+  "homepage": "https://github.com/mheadd/albany-ticket-finder",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "request": "^2.71.0",
+    "twilio": "^2.9.1"
+  }
+}
